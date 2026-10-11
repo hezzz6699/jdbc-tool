@@ -1,0 +1,28 @@
+# ---- Maven ----
+target/
+!target/README.md
+
+# ---- IDE ----
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.classpath
+.project
+
+# ---- 编译产物 ----
+*.class
+*.log
+*.jar
+!**/libs/*.jar
+
+# ---- 本地数据库文件 ----
+data/
+*.mv.db
+*.trace.db
+
+# ---- 操作系统 ----
+Thumbs.db
+.DS_Store
