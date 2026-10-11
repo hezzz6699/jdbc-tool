@@ -162,6 +162,16 @@ java -jar target/jdbc-tool-1.0.0.jar
 
 ## 八、Git 提交记录
 
+仓库地址：https://github.com/hezzz6699/jdbc-tool
+
 ```bash
 git log --oneline
+```
+
+```
+e36cbc1 test: 新增 JUnit 单元测试与运行截图/构建日志
+37fd472 feat: 新增数据库连接工具、建表脚本与演示程序
+b8e3fa7 feat: 基于反射实现 JDBCTool 五个核心方法
+907c240 feat: 新增 ORM 注解与实体类 (@Table/@Column/@Id、Student、College)
+2a2e89e chore: 初始化 Maven 项目骨架
 ```
